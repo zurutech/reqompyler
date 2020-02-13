@@ -21,7 +21,6 @@ from typing import List, Union
 
 import pytest
 from click.testing import CliRunner
-
 from reqompyler import cli, reqcompyle
 
 

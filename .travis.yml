@@ -4,27 +4,24 @@ addons:
   artifacts: true
 python:
 - '3.8'
+- '3.7'
 stages:
-  - Tests
   - Black
   - Pylint
   - Deploy
 before_install:
-  - sudo apt-get install -y --no-install-recommends bc python3.7
+  - sudo apt-get install -y --no-install-recommends bc
 addons:
   apt:
     update: true
 install: &requirements
 - pip install -r requirements.txt
+- pip install tox-travis
 - pip install -e .
+script: tox
+after_success: codecov
 jobs:
   include:
-  - stage: Tests
-    install: *requirements
-    script:
-    - tox -e py37
-    after_success:
-    - codecov
   - stage: Black
     install: *requirements
     script:
@@ -45,7 +42,7 @@ jobs:
       provider: pypi
       user: __token__
       password:
-        secure:
+        secure: "rhY5kcsS/cLBkmlS9nIuuE9GAholHbZ1NYjVt3+1b/rZ6BhGk/S71RaX9OIOpQeSnr/4UWBEiMu6gbHlUtQv0iiGGj8aOZ1LbW5CT2ljNFy0/hsbmN4n10nXm2bebnFZTkxCeErJHzNZxznf3NsRseQcT6b8aOwVnTTJAQ+9gx0FjeGEuVjr4ZBCHjelJtoA9qdQEv/9IbbfelAzWWaYCqXSc/DbsHhvTvqQ1d8sAyYrdKvUiPTTc+bz/6IV53oml2vC2EFGf3RQdnwldEyVJGgGl0gJ2PBoVgfnJ9L6clIqYPmvVyAfQKYiT966EG7IQsO4NtzhtR1hoT/NkgQJVIqFcHivU+sN0dar0vObmDYEBhQ74Iq9GwK0Cp/0n3FpnxhSF0paq6OEt7cAV5bVVQYgw/JMLuccj8eLRbFMXFUOMcZRFAILeKQvT3QGG9FQ/OwdqnEXWMzxMgey9lcj6+RAn/G3XTeUeU08jCtT48DU5CkmaSgIdkTLoEoRL1Jdrlq36H8yFA4sVeJ9pdHDcgoyTKn8HGv830tpTAl6auVTNjZOdRlaX7QLMjS5OMWvz2Sj7Gu5gnGfqiNHrb3EwhGdu4dEgDJmkLlAH6pH1vL+x2kQgrqggxu1FEWjaioFk2GHHB7n2uL4arh1lCraQcNk5bBEhZV0e327BCkzqyg="
       on:
         tags: true
         all_branches: true
