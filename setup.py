@@ -27,7 +27,11 @@ setup(
     author_email="ml@zuru.tech",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
+        "Framework :: Pytest",
+        "Framework :: Sphinx",
+        "Framework :: tox",
         "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
         "License :: OSI Approved :: Apache Software License",
         "Natural Language :: English",
         "Programming Language :: Python :: 3.7",
