@@ -52,4 +52,4 @@ wheel==0.34.2             # via sphinx-copybutton
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
-m2r
+m2r==0.2.1
