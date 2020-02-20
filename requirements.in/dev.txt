@@ -2,7 +2,7 @@
 -r base.txt
 
 # Dev
-rope
+rope==0.16.0
 
 # Docs
 -r docs.txt
