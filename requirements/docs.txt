@@ -13,7 +13,7 @@ doc8==0.8.0
 docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
 flit-core==2.2.0          # via flit
 flit==2.2.0               # via sphinx-copybutton
-idna==2.8                 # via requests
+idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==3.0.0a1           # via sphinx
 livereload==2.6.1         # via sphinx-autobuild
