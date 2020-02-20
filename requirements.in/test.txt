@@ -1,7 +1,7 @@
 # Testing
 
 codecov==2.0.15
-coverage
+coverage==5.0.3
 pytest
 pytest-cov
 tox
