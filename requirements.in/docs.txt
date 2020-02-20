@@ -1,6 +1,6 @@
 # Documentation
 
-doc8
+doc8==0.8.0
 # m2r
 pydocstyle
 sphinx
