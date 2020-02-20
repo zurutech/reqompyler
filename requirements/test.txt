@@ -25,7 +25,7 @@ pytest==5.3.5
 requests==2.22.0          # via codecov
 six==1.14.0               # via packaging, tox, virtualenv
 toml==0.10.0              # via tox
-tox==3.14.3
+tox==3.14.5
 urllib3==1.25.8           # via requests
 virtualenv==20.0.2        # via tox
 wcwidth==0.1.8            # via pytest
