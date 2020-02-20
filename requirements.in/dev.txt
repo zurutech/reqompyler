@@ -1,3 +1,4 @@
+# pyup: ignore file
 # Core
 -r base.txt
 

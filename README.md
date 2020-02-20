@@ -4,6 +4,7 @@
 [![PyPy - Version](https://badge.fury.io/py/reqompyler.svg)](https://pypi.org/project/reqompyler/)
 ![PyPI - License](https://img.shields.io/pypi/l/reqompyler.svg)
 [![Reqompyler - Badge](https://img.shields.io/badge/package-reqompyler-brightgreen.svg)](https://pypi.org/project/reqompyler/)
+[![Updates](https://pyup.io/repos/github/zurutech/reqompyler/shield.svg)](https://pyup.io/repos/github/zurutech/reqompyler/)
 [![Build Status](https://travis-ci.org/zurutech/reqompyler.svg?branch=master)](https://travis-ci.org/zurutech/reqompyler)
 [![Documentation Status](https://readthedocs.org/projects/reqompyler/badge/?version=latest)](https://reqompyler.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/zurutech/reqompyler/branch/master/graph/badge.svg)](https://codecov.io/gh/zurutech/reqompyler)

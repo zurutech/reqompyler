@@ -15,7 +15,7 @@ docopt==0.6.2             # via pipreqs
 entrypoints==0.3          # via flake8
 flake8-bugbear==20.1.4
 flake8==3.7.9
-idna==2.8                 # via requests
+idna==2.9                 # via requests
 isort[pyproject,requirements]==4.3.21
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via flake8, pylint
@@ -27,14 +27,14 @@ pipreqs==0.4.10           # via isort
 pycodestyle==2.5.0        # via flake8
 pyflakes==2.1.1           # via flake8
 pylint==2.4.4
-regex==2020.1.8           # via black
-requests==2.22.0          # via yarg
+regex==2020.2.18           # via black
+requests==2.23.0          # via yarg
 six==1.14.0               # via astroid
 toml==0.10.0              # via black, isort
 typed-ast==1.4.1          # via astroid, black, mypy
 typing-extensions==3.7.4.1  # via mypy
 urllib3==1.25.8           # via requests
-wrapt==1.11.2             # via astroid
+wrapt==1.12.0             # via astroid
 yarg==0.1.9               # via pipreqs
 
 # The following packages are considered to be unsafe in a requirements file:

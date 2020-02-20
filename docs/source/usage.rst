@@ -2,7 +2,7 @@
 Usage
 =====
 
-To use ``reqompyler`` in a project:
+To use ``reqompyler`` as a CLI tool:
 
 .. code-block:: console
 
