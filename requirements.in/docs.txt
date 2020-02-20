@@ -2,7 +2,7 @@
 
 doc8==0.8.0
 # m2r
-pydocstyle
+pydocstyle==5.0.2
 sphinx
 sphinx-autobuild
 sphinx-autodoc-typehints
