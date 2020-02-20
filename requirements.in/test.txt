@@ -1,6 +1,6 @@
 # Testing
 
-codecov
+codecov==2.0.15
 coverage
 pytest
 pytest-cov
