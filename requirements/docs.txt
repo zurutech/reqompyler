@@ -37,7 +37,7 @@ sphinx-autodoc-typehints==1.10.3
 sphinx-click==2.3.1
 sphinx-copybutton==0.2.8
 sphinx-rtd-theme==0.4.3
-sphinx==2.4.3
+sphinx==2.4.4
 sphinxcontrib-applehelp==1.0.1  # via sphinx
 sphinxcontrib-devhelp==1.0.1  # via sphinx
 sphinxcontrib-htmlhelp==1.0.3  # via sphinx
