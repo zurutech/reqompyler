@@ -10,7 +10,7 @@ attrs==19.3.0             # via black, flake8-bugbear
 black==19.10b0
 certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
-click==7.0                # via black
+click==7.1.1                # via black
 docopt==0.6.2             # via pipreqs
 entrypoints==0.3          # via flake8
 flake8-bugbear==20.1.4
