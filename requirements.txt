@@ -68,7 +68,7 @@ snowballstemmer==2.0.0    # via pydocstyle, sphinx
 sphinx-autobuild==0.7.1   # via -r ./requirements.in/docs.txt
 sphinx-autodoc-typehints==1.10.3  # via -r ./requirements.in/docs.txt
 sphinx-click==2.3.1       # via -r ./requirements.in/docs.txt
-sphinx-copybutton==0.2.8  # via -r ./requirements.in/docs.txt
+sphinx-copybutton==0.2.9  # via -r ./requirements.in/docs.txt
 sphinx-rtd-theme==0.4.3   # via -r ./requirements.in/docs.txt
 sphinx==2.4.3             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
 sphinxcontrib-applehelp==1.0.2  # via sphinx
