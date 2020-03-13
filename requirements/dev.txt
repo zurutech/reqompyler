@@ -51,7 +51,7 @@ py==1.8.1                 # via pytest, tox
 pycodestyle==2.5.0        # via flake8
 pydocstyle==5.0.2         # via -r ./requirements.in/docs.txt
 pyflakes==2.1.1           # via flake8
-pygments==2.5.2           # via sphinx
+pygments==2.6.1           # via sphinx
 pylint==2.4.4             # via -r ./requirements.in/linting.txt
 pyparsing==2.4.6          # via packaging
 pytest-cov==2.8.1         # via -r ./requirements.in/test.txt
