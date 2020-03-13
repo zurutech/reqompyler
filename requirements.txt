@@ -88,7 +88,7 @@ virtualenv==20.0.10        # via tox
 watchdog==0.10.2          # via sphinx-autobuild
 wcwidth==0.1.8            # via pytest
 wheel==0.34.2             # via sphinx-copybutton
-wrapt==1.11.2             # via astroid
+wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
 zipp==3.1.0               # via importlib-metadata
 
