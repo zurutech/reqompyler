@@ -72,7 +72,7 @@ sphinx-copybutton==0.2.8  # via -r ./requirements.in/docs.txt
 sphinx-rtd-theme==0.4.3   # via -r ./requirements.in/docs.txt
 sphinx==2.4.3             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
 sphinxcontrib-applehelp==1.0.2  # via sphinx
-sphinxcontrib-devhelp==1.0.1  # via sphinx
+sphinxcontrib-devhelp==1.0.2  # via sphinx
 sphinxcontrib-htmlhelp==1.0.3  # via sphinx
 sphinxcontrib-jsmath==1.0.1  # via sphinx
 sphinxcontrib-qthelp==1.0.2  # via sphinx
