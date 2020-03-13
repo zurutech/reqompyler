@@ -69,7 +69,7 @@ snowballstemmer==2.0.0    # via pydocstyle, sphinx
 sphinx-autobuild==0.7.1
 sphinx-autodoc-typehints==1.10.3
 sphinx-click==2.3.1
-sphinx-copybutton==0.2.8
+sphinx-copybutton==0.2.9
 sphinx-rtd-theme==0.4.3
 sphinx==2.4.3
 sphinxcontrib-applehelp==1.0.1  # via sphinx
