@@ -27,5 +27,5 @@ toml==0.10.0              # via tox
 tox==3.14.5               # via -r ./requirements.in/test.txt
 urllib3==1.25.8           # via requests
 virtualenv==20.0.13        # via tox
-wcwidth==0.1.8            # via pytest
+wcwidth==0.1.9            # via pytest
 zipp==3.1.0               # via importlib-metadata
