@@ -9,8 +9,8 @@ appdirs==1.4.3            # via virtualenv
 attrs==19.3.0             # via pytest
 certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
-codecov==2.0.16           # via -r ./requirements.in/test.txt
-coverage==5.0.3           # via -r ./requirements.in/test.txt, codecov, pytest-cov
+codecov==2.0.22           # via -r ./requirements.in/test.txt
+coverage==5.0.4           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.0            # via virtualenv
 filelock==3.0.12          # via tox, virtualenv
 idna==2.9                 # via requests
@@ -26,6 +26,6 @@ six==1.14.0               # via packaging, tox, virtualenv
 toml==0.10.0              # via tox
 tox==3.14.5               # via -r ./requirements.in/test.txt
 urllib3==1.25.8           # via requests
-virtualenv==20.0.10        # via tox
-wcwidth==0.1.8            # via pytest
+virtualenv==20.0.13        # via tox
+wcwidth==0.1.9            # via pytest
 zipp==3.1.0               # via importlib-metadata
