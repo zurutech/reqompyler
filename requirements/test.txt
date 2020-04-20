@@ -7,7 +7,7 @@
 -e git+https://github.com/thisch/pytest-sphinx.git#egg=pytest-sphinx  # via -r ./requirements.in/test.txt
 appdirs==1.4.3            # via virtualenv
 attrs==19.3.0             # via pytest
-certifi==2019.11.28       # via requests
+certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
 codecov==2.0.22           # via -r ./requirements.in/test.txt
 coverage==5.0.4           # via -r ./requirements.in/test.txt, codecov, pytest-cov
