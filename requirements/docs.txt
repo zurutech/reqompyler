@@ -37,7 +37,7 @@ sphinx-autodoc-typehints==1.10.3  # via -r ./requirements.in/docs.txt
 sphinx-click==2.3.2       # via -r ./requirements.in/docs.txt
 sphinx-copybutton==0.2.11  # via -r ./requirements.in/docs.txt
 sphinx-rtd-theme==0.4.3   # via -r ./requirements.in/docs.txt
-sphinx==2.4.4             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
+sphinx==3.0.3             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
 sphinxcontrib-applehelp==1.0.2  # via sphinx
 sphinxcontrib-devhelp==1.0.2  # via sphinx
 sphinxcontrib-htmlhelp==1.0.3  # via sphinx
