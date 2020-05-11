@@ -26,7 +26,7 @@ pip-api==0.0.14           # via isort
 pipreqs==0.4.10           # via isort
 pycodestyle==2.5.0        # via flake8
 pyflakes==2.2.0           # via flake8
-pylint==2.4.4             # via -r ./requirements.in/linting.txt
+pylint==2.5.2             # via -r ./requirements.in/linting.txt
 regex==2020.2.20          # via black
 requests==2.23.0          # via yarg
 six==1.14.0               # via astroid
