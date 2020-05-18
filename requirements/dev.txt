@@ -53,7 +53,7 @@ pydocstyle==5.0.2         # via -r ./requirements.in/docs.txt
 pyflakes==2.2.0           # via flake8
 pygments==2.6.1           # via sphinx
 pylint==2.5.2             # via -r ./requirements.in/linting.txt
-pyparsing==2.4.6          # via packaging
+pyparsing==2.4.7          # via packaging
 pytest-cov==2.8.1         # via -r ./requirements.in/test.txt
 pytest==5.4.1             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 pytoml==0.1.21            # via flit
