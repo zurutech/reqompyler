@@ -10,7 +10,7 @@ attrs==19.3.0             # via pytest
 certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
 codecov==2.1.0           # via -r ./requirements.in/test.txt
-coverage==5.0.4           # via -r ./requirements.in/test.txt, codecov, pytest-cov
+coverage==5.1           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.0            # via virtualenv
 filelock==3.0.12          # via tox, virtualenv
 idna==2.9                 # via requests
