@@ -18,7 +18,7 @@ click==7.1.2              # via -r ./requirements.in/base.txt, black, pip-tools
 codecov==2.1.4           # via -r ./requirements.in/test.txt
 coverage==5.1           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.0            # via virtualenv
-doc8==0.8.0               # via -r ./requirements.in/docs.txt
+doc8==0.8.1               # via -r ./requirements.in/docs.txt
 docopt==0.6.2             # via pipreqs
 docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
 entrypoints==0.3          # via flake8
