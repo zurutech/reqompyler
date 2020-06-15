@@ -77,7 +77,7 @@ sphinxcontrib-htmlhelp==1.0.3  # via sphinx
 sphinxcontrib-jsmath==1.0.1  # via sphinx
 sphinxcontrib-qthelp==1.0.3  # via sphinx
 sphinxcontrib-serializinghtml==1.1.4  # via sphinx
-stevedore==1.32.0         # via doc8
+stevedore==2.0.0         # via doc8
 toml==0.10.0              # via black, isort, tox
 tornado==6.0.4            # via livereload, sphinx-autobuild
 tox==3.14.5               # via -r ./requirements.in/test.txt
