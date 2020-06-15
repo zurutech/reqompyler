@@ -15,7 +15,7 @@ black==19.10b0            # via -r ./requirements.in/linting.txt
 certifi==2020.4.5.2       # via requests
 chardet==3.0.4            # via doc8, requests
 click==7.1.2              # via -r ./requirements.in/base.txt, black, pip-tools
-codecov==2.0.22           # via -r ./requirements.in/test.txt
+codecov==2.1.7           # via -r ./requirements.in/test.txt
 coverage==5.0.4           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.0            # via virtualenv
 doc8==0.8.0               # via -r ./requirements.in/docs.txt
