@@ -23,7 +23,7 @@ pytest-cov==2.10.0         # via -r ./requirements.in/test.txt
 pytest==5.4.3             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 requests==2.23.0          # via codecov
 six==1.15.0               # via packaging, tox, virtualenv
-toml==0.10.0              # via tox
+toml==0.10.1              # via tox
 tox==3.14.5               # via -r ./requirements.in/test.txt
 urllib3==1.25.8           # via requests
 virtualenv==20.0.13        # via tox
