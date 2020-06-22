@@ -47,7 +47,7 @@ pip-tools==5.2.1
 pipreqs==0.4.10           # via isort
 pluggy==0.13.1            # via pytest, tox
 port_for==0.4           # via sphinx-autobuild
-py==1.8.1                 # via pytest, tox
+py==1.8.2                 # via pytest, tox
 pycodestyle==2.5.0        # via flake8
 pydocstyle==5.0.2         # via -r ./requirements.in/docs.txt
 pyflakes==2.1.1           # via flake8
