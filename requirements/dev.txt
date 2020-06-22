@@ -83,7 +83,7 @@ tornado==6.0.4            # via livereload, sphinx-autobuild
 tox==3.15.2               # via -r ./requirements.in/test.txt
 typed-ast==1.4.1          # via black, mypy
 typing-extensions==3.7.4.2  # via mypy
-urllib3==1.25.8           # via requests
+urllib3==1.25.9           # via requests
 virtualenv==20.0.13        # via tox
 watchdog==0.10.2          # via sphinx-autobuild
 wcwidth==0.1.9            # via pytest
