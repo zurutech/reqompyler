@@ -80,7 +80,7 @@ sphinxcontrib-serializinghtml==1.1.4  # via sphinx
 stevedore==2.0.1         # via doc8
 toml==0.10.1              # via black, isort, tox
 tornado==6.0.4            # via livereload, sphinx-autobuild
-tox==3.14.5               # via -r ./requirements.in/test.txt
+tox==3.16.1               # via -r ./requirements.in/test.txt
 typed-ast==1.4.1          # via black, mypy
 typing-extensions==3.7.4.1  # via mypy
 urllib3==1.25.8           # via requests
