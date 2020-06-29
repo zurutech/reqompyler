@@ -15,7 +15,7 @@ docopt==0.6.2             # via pipreqs
 entrypoints==0.3          # via flake8
 flake8-bugbear==20.1.4    # via -r ./requirements.in/linting.txt
 flake8==3.8.3             # via -r ./requirements.in/linting.txt, flake8-bugbear
-idna==2.9                 # via requests
+idna==2.10                 # via requests
 isort[pyproject,requirements]==4.3.21  # via -r ./requirements.in/linting.txt, pylint
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via flake8, pylint
