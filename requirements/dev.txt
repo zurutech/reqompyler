@@ -86,7 +86,7 @@ typing-extensions==3.7.4.2  # via mypy
 urllib3==1.25.9           # via requests
 virtualenv==20.0.25        # via tox
 watchdog==0.10.3          # via sphinx-autobuild
-wcwidth==0.1.9            # via pytest
+wcwidth==0.2.5            # via pytest
 wheel==0.34.2             # via sphinx-copybutton
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
