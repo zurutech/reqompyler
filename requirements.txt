@@ -31,7 +31,7 @@ idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
 isort[requirements,pyproject]==5.0.4  # via -r ./requirements.in/linting.txt, pylint
 jinja2==2.11.2            # via sphinx
-lazy-object-proxy==1.4.3  # via astroid
+lazy-object-proxy==1.5.0  # via astroid
 livereload==2.6.1         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
 mccabe==0.6.1             # via flake8, pylint
