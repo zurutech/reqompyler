@@ -16,7 +16,7 @@ flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==3.0.0a1           # via sphinx
-livereload==2.6.1         # via sphinx-autobuild
+livereload==2.6.2         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
 packaging==20.3           # via sphinx
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
