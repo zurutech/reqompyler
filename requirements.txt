@@ -15,7 +15,7 @@ black==19.10b0            # via -r ./requirements.in/linting.txt
 certifi==2020.6.20       # via requests
 chardet==3.0.4            # via doc8, requests
 click==7.1.2              # via -r ./requirements.in/base.txt, black, pip-tools
-codecov==2.1.7           # via -r ./requirements.in/test.txt
+codecov==2.1.8           # via -r ./requirements.in/test.txt
 coverage==5.2           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.1            # via virtualenv
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
@@ -29,7 +29,7 @@ flit-core==2.3.0          # via flit
 flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
-isort[requirements,pyproject]==5.0.9  # via -r ./requirements.in/linting.txt, pylint
+isort[pyproject,requirements]==5.1.4  # via -r ./requirements.in/linting.txt, pylint
 jinja2==2.11.2            # via sphinx
 lazy-object-proxy==1.5.0  # via astroid
 livereload==2.6.2         # via sphinx-autobuild
@@ -59,7 +59,7 @@ pytest==5.4.3             # via -r ./requirements.in/test.txt, pytest-cov, pytes
 pytoml==0.1.21            # via flit
 pytz==2020.1              # via babel
 pyyaml==5.3.1               # via sphinx-autobuild
-regex==2020.6.8          # via black
+regex==2020.7.14          # via black
 requests==2.24.0          # via codecov, flit, sphinx
 restructuredtext-lint==1.3.1  # via doc8
 rope==0.17.0              # via -r ./requirements.in/dev.txt
@@ -77,14 +77,14 @@ sphinxcontrib-htmlhelp==1.0.3  # via sphinx
 sphinxcontrib-jsmath==1.0.1  # via sphinx
 sphinxcontrib-qthelp==1.0.3  # via sphinx
 sphinxcontrib-serializinghtml==1.1.4  # via sphinx
-stevedore==3.1.0         # via doc8
+stevedore==3.2.0         # via doc8
 toml==0.10.1              # via black, isort, tox
 tornado==6.0.4            # via livereload, sphinx-autobuild
-tox==3.16.1               # via -r ./requirements.in/test.txt
+tox==3.17.1               # via -r ./requirements.in/test.txt
 typed-ast==1.4.1          # via black, mypy
 typing-extensions==3.7.4.2  # via mypy
 urllib3==1.25.9           # via requests
-virtualenv==20.0.26        # via tox
+virtualenv==20.0.27        # via tox
 watchdog==0.10.3          # via sphinx-autobuild
 wcwidth==0.2.5            # via pytest
 wheel==0.34.2             # via sphinx-copybutton
