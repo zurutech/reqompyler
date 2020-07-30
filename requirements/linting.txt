@@ -16,8 +16,8 @@ entrypoints==0.3          # via flake8
 flake8-bugbear==20.1.4    # via -r ./requirements.in/linting.txt
 flake8==3.8.3             # via -r ./requirements.in/linting.txt, flake8-bugbear
 idna==2.10                 # via requests
-isort[pyproject,requirements]==5.1.4  # via -r ./requirements.in/linting.txt, pylint
-lazy-object-proxy==1.5.0  # via astroid
+isort[pyproject,requirements]==5.2.0  # via -r ./requirements.in/linting.txt, pylint
+lazy-object-proxy==1.5.1  # via astroid
 mccabe==0.6.1             # via flake8, pylint
 mypy-extensions==0.4.3    # via mypy
 mypy==0.782               # via -r ./requirements.in/linting.txt
@@ -33,7 +33,7 @@ six==1.15.0               # via astroid
 toml==0.10.1              # via black, isort
 typed-ast==1.4.1          # via black, mypy
 typing-extensions==3.7.4.2  # via mypy
-urllib3==1.25.9           # via requests
+urllib3==1.25.10           # via requests
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
 
