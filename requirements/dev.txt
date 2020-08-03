@@ -29,7 +29,7 @@ flit-core==2.3.0          # via flit
 flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
-isort[pyproject,requirements]==5.2.0  # via -r ./requirements.in/linting.txt, pylint
+isort[pyproject,requirements]==5.2.2  # via -r ./requirements.in/linting.txt, pylint
 jinja2==2.11.2            # via sphinx
 lazy-object-proxy==1.5.1  # via astroid
 livereload==2.6.2         # via sphinx-autobuild
