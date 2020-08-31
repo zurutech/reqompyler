@@ -35,7 +35,7 @@ lazy-object-proxy==1.5.1  # via astroid
 livereload==2.6.3         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
 mccabe==0.6.1             # via flake8, pylint
-more-itertools==8.4.0     # via pytest
+more-itertools==8.5.0     # via pytest
 mypy-extensions==0.4.3    # via mypy
 mypy==0.782               # via -r ./requirements.in/linting.txt
 packaging==20.4           # via pytest, sphinx, tox
