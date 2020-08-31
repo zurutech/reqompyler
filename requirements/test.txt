@@ -20,7 +20,7 @@ pluggy==0.13.1            # via pytest, tox
 py==1.9.0                 # via pytest, tox
 pyparsing==2.4.7          # via packaging
 pytest-cov==2.10.1         # via -r ./requirements.in/test.txt
-pytest==5.4.3             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
+pytest==6.0.1             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 requests==2.24.0          # via codecov
 six==1.15.0               # via packaging, tox, virtualenv
 toml==0.10.1              # via tox
