@@ -6,26 +6,26 @@
 #
 -e git+https://github.com/thisch/pytest-sphinx.git#egg=pytest-sphinx  # via -r ./requirements.in/test.txt
 appdirs==1.4.4            # via virtualenv
-attrs==19.3.0             # via pytest
+attrs==20.1.0             # via pytest
 certifi==2020.6.20       # via requests
 chardet==3.0.4            # via requests
-codecov==2.1.8           # via -r ./requirements.in/test.txt
+codecov==2.1.9           # via -r ./requirements.in/test.txt
 coverage==5.2.1           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.1            # via virtualenv
 filelock==3.0.12          # via tox, virtualenv
 idna==2.10                 # via requests
-more-itertools==8.4.0     # via pytest
+more-itertools==8.5.0     # via pytest
 packaging==20.4           # via pytest, tox
 pluggy==0.13.1            # via pytest, tox
 py==1.9.0                 # via pytest, tox
 pyparsing==2.4.7          # via packaging
-pytest-cov==2.10.0         # via -r ./requirements.in/test.txt
-pytest==5.4.3             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
+pytest-cov==2.10.1         # via -r ./requirements.in/test.txt
+pytest==6.0.1             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 requests==2.24.0          # via codecov
 six==1.15.0               # via packaging, tox, virtualenv
 toml==0.10.1              # via tox
-tox==3.18.0               # via -r ./requirements.in/test.txt
+tox==3.19.0               # via -r ./requirements.in/test.txt
 urllib3==1.25.10           # via requests
-virtualenv==20.0.28        # via tox
+virtualenv==20.0.31        # via tox
 wcwidth==0.2.5            # via pytest
 zipp==3.1.0               # via importlib-metadata

@@ -6,8 +6,8 @@
 #
 appdirs==1.4.4            # via black
 astroid==2.4.2            # via pylint
-attrs==19.3.0             # via black, flake8-bugbear
-black==19.10b0            # via -r ./requirements.in/linting.txt
+attrs==20.1.0             # via black, flake8-bugbear
+black==20.8b1            # via -r ./requirements.in/linting.txt
 certifi==2020.6.20       # via requests
 chardet==3.0.4            # via requests
 click==7.1.2                # via black
@@ -16,7 +16,7 @@ entrypoints==0.3          # via flake8
 flake8-bugbear==20.1.4    # via -r ./requirements.in/linting.txt
 flake8==3.8.3             # via -r ./requirements.in/linting.txt, flake8-bugbear
 idna==2.10                 # via requests
-isort[pyproject,requirements]==5.2.0  # via -r ./requirements.in/linting.txt, pylint
+isort[requirements,pyproject]==5.4.2  # via -r ./requirements.in/linting.txt, pylint
 lazy-object-proxy==1.5.1  # via astroid
 mccabe==0.6.1             # via flake8, pylint
 mypy-extensions==0.4.3    # via mypy
@@ -26,13 +26,13 @@ pip-api==0.0.14           # via isort
 pipreqs==0.4.10           # via isort
 pycodestyle==2.6.0        # via flake8
 pyflakes==2.2.0           # via flake8
-pylint==2.5.3             # via -r ./requirements.in/linting.txt
+pylint==2.6.0             # via -r ./requirements.in/linting.txt
 regex==2020.7.14          # via black
 requests==2.24.0          # via yarg
 six==1.15.0               # via astroid
 toml==0.10.1              # via black, isort
 typed-ast==1.4.1          # via black, mypy
-typing-extensions==3.7.4.2  # via mypy
+typing-extensions==3.7.4.3  # via mypy
 urllib3==1.25.10           # via requests
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs

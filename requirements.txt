@@ -9,13 +9,13 @@ alabaster==0.7.12         # via sphinx
 appdirs==1.4.4            # via black, virtualenv
 argh==0.26.2              # via sphinx-autobuild
 astroid==2.4.2            # via pylint
-attrs==19.3.0             # via black, flake8-bugbear, pytest
+attrs==20.1.0             # via black, flake8-bugbear, pytest
 babel==2.8.0              # via sphinx
-black==19.10b0            # via -r ./requirements.in/linting.txt
+black==20.8b1            # via -r ./requirements.in/linting.txt
 certifi==2020.6.20       # via requests
 chardet==3.0.4            # via doc8, requests
 click==7.1.2              # via -r ./requirements.in/base.txt, black, pip-tools
-codecov==2.1.8           # via -r ./requirements.in/test.txt
+codecov==2.1.9           # via -r ./requirements.in/test.txt
 coverage==5.2.1           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.1            # via virtualenv
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
@@ -29,13 +29,13 @@ flit-core==2.3.0          # via flit
 flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
-isort[pyproject,requirements]==5.2.0  # via -r ./requirements.in/linting.txt, pylint
+isort[requirements,pyproject]==5.4.2  # via -r ./requirements.in/linting.txt, pylint
 jinja2==2.11.2            # via sphinx
 lazy-object-proxy==1.5.1  # via astroid
-livereload==2.6.2         # via sphinx-autobuild
+livereload==2.6.3         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
 mccabe==0.6.1             # via flake8, pylint
-more-itertools==8.4.0     # via pytest
+more-itertools==8.5.0     # via pytest
 mypy-extensions==0.4.3    # via mypy
 mypy==0.782               # via -r ./requirements.in/linting.txt
 packaging==20.4           # via pytest, sphinx, tox
@@ -43,19 +43,19 @@ pathspec==0.8.0           # via black
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
 pbr==5.4.5                # via sphinx-click, stevedore
 pip-api==0.0.14           # via isort
-pip-tools==5.3.0
+pip-tools==5.3.1
 pipreqs==0.4.10           # via isort
 pluggy==0.13.1            # via pytest, tox
 port_for==0.4           # via sphinx-autobuild
 py==1.9.0                 # via pytest, tox
 pycodestyle==2.6.0        # via flake8
-pydocstyle==5.0.2         # via -r ./requirements.in/docs.txt
+pydocstyle==5.1.1         # via -r ./requirements.in/docs.txt
 pyflakes==2.2.0           # via flake8
 pygments==2.6.1           # via sphinx
-pylint==2.5.3             # via -r ./requirements.in/linting.txt
+pylint==2.6.0             # via -r ./requirements.in/linting.txt
 pyparsing==2.4.7          # via packaging
-pytest-cov==2.10.0         # via -r ./requirements.in/test.txt
-pytest==5.4.3             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
+pytest-cov==2.10.1         # via -r ./requirements.in/test.txt
+pytest==6.0.1             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 pytoml==0.1.21            # via flit
 pytz==2020.1              # via babel
 pyyaml==5.3.1               # via sphinx-autobuild
@@ -65,12 +65,12 @@ restructuredtext-lint==1.3.1  # via doc8
 rope==0.17.0              # via -r ./requirements.in/dev.txt
 six==1.15.0               # via astroid, doc8, livereload, packaging, pip-tools, stevedore, tox, virtualenv
 snowballstemmer==2.0.0    # via pydocstyle, sphinx
-sphinx-autobuild==0.7.1   # via -r ./requirements.in/docs.txt
+sphinx-autobuild==2020.9.1   # via -r ./requirements.in/docs.txt
 sphinx-autodoc-typehints==1.11.0  # via -r ./requirements.in/docs.txt
 sphinx-click==2.5.0       # via -r ./requirements.in/docs.txt
 sphinx-copybutton==0.3.0  # via -r ./requirements.in/docs.txt
 sphinx-rtd-theme==0.5.0   # via -r ./requirements.in/docs.txt
-sphinx==3.1.2             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
+sphinx==3.2.1             # via -r ./requirements.in/docs.txt, sphinx-autodoc-typehints, sphinx-click, sphinx-copybutton, sphinx-rtd-theme
 sphinxcontrib-applehelp==1.0.2  # via sphinx
 sphinxcontrib-devhelp==1.0.2  # via sphinx
 sphinxcontrib-htmlhelp==1.0.3  # via sphinx
@@ -80,14 +80,14 @@ sphinxcontrib-serializinghtml==1.1.4  # via sphinx
 stevedore==3.2.0         # via doc8
 toml==0.10.1              # via black, isort, tox
 tornado==6.0.4            # via livereload, sphinx-autobuild
-tox==3.18.0               # via -r ./requirements.in/test.txt
+tox==3.19.0               # via -r ./requirements.in/test.txt
 typed-ast==1.4.1          # via black, mypy
-typing-extensions==3.7.4.2  # via mypy
+typing-extensions==3.7.4.3  # via mypy
 urllib3==1.25.10           # via requests
-virtualenv==20.0.28        # via tox
+virtualenv==20.0.31        # via tox
 watchdog==0.10.3          # via sphinx-autobuild
 wcwidth==0.2.5            # via pytest
-wheel==0.34.2             # via sphinx-copybutton
+wheel==0.35.1             # via sphinx-copybutton
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
 zipp==3.1.0               # via importlib-metadata
