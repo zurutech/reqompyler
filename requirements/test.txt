@@ -24,7 +24,7 @@ pytest==6.0.2             # via -r ./requirements.in/test.txt, pytest-cov, pytes
 requests==2.24.0          # via codecov
 six==1.15.0               # via packaging, tox, virtualenv
 toml==0.10.1              # via tox
-tox==3.19.0               # via -r ./requirements.in/test.txt
+tox==3.20.0               # via -r ./requirements.in/test.txt
 urllib3==1.25.10           # via requests
 virtualenv==20.0.31        # via tox
 wcwidth==0.2.5            # via pytest
