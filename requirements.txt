@@ -90,7 +90,7 @@ wcwidth==0.2.5            # via pytest
 wheel==0.35.1             # via sphinx-copybutton
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
-zipp==3.1.0               # via importlib-metadata
+zipp==3.4.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
