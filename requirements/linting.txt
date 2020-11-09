@@ -22,7 +22,7 @@ mccabe==0.6.1             # via flake8, pylint
 mypy-extensions==0.4.3    # via mypy
 mypy==0.790               # via -r ./requirements.in/linting.txt
 pathspec==0.8.1           # via black
-pip-api==0.0.14           # via isort
+pip-api==0.0.17           # via isort
 pipreqs==0.4.10           # via isort
 pycodestyle==2.6.0        # via flake8
 pyflakes==2.2.0           # via flake8
