@@ -59,7 +59,7 @@ pytest==6.1.2             # via -r ./requirements.in/test.txt, pytest-cov, pytes
 pytoml==0.1.21            # via flit
 pytz==2020.4              # via babel
 pyyaml==5.3.1               # via sphinx-autobuild
-regex==2020.7.14          # via black
+regex==2020.10.28          # via black
 requests==2.24.0          # via codecov, flit, sphinx
 restructuredtext-lint==1.3.1  # via doc8
 rope==0.17.0              # via -r ./requirements.in/dev.txt
