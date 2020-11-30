@@ -20,7 +20,7 @@ livereload==2.6.3         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
 packaging==20.7           # via sphinx
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
-pbr==5.4.5                # via sphinx-click, stevedore
+pbr==5.5.1                # via sphinx-click, stevedore
 port_for==0.4           # via sphinx-autobuild
 pydocstyle==5.1.1         # via -r ./requirements.in/docs.txt
 pygments==2.6.1           # via sphinx
