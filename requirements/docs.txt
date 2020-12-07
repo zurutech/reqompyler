@@ -18,7 +18,7 @@ imagesize==1.2.0          # via sphinx
 jinja2==3.0.0a1           # via sphinx
 livereload==2.6.3         # via sphinx-autobuild
 markupsafe==1.1.1         # via jinja2
-packaging==20.4           # via sphinx
+packaging==20.7           # via sphinx
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
 pbr==5.4.5                # via sphinx-click, stevedore
 port_for==0.4           # via sphinx-autobuild
