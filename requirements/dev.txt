@@ -55,7 +55,7 @@ pygments==2.7.3           # via sphinx
 pylint==2.6.0             # via -r ./requirements.in/linting.txt
 pyparsing==2.4.7          # via packaging
 pytest-cov==2.10.1         # via -r ./requirements.in/test.txt
-pytest==6.0.1             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
+pytest==6.2.0             # via -r ./requirements.in/test.txt, pytest-cov, pytest-sphinx
 pytoml==0.1.21            # via flit
 pytz==2020.1              # via babel
 pyyaml==5.3.1               # via sphinx-autobuild
