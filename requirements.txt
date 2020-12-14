@@ -16,7 +16,7 @@ certifi==2020.12.5       # via requests
 chardet==4.0.0            # via doc8, requests
 click==7.1.2              # via -r ./requirements.in/base.txt, black, pip-tools
 codecov==2.1.10           # via -r ./requirements.in/test.txt
-coverage==5.2.1           # via -r ./requirements.in/test.txt, codecov, pytest-cov
+coverage==5.3           # via -r ./requirements.in/test.txt, codecov, pytest-cov
 distlib==0.3.1            # via virtualenv
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
 docopt==0.6.2             # via pipreqs
