@@ -7,7 +7,7 @@
 alabaster==0.7.12         # via sphinx
 argh==0.26.2              # via sphinx-autobuild
 babel==2.9.0              # via sphinx
-certifi==2020.6.20       # via requests
+certifi==2020.12.5       # via requests
 chardet==3.0.4            # via doc8, requests
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
 docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
