@@ -15,7 +15,7 @@ distlib==0.3.1            # via virtualenv
 filelock==3.0.12          # via tox, virtualenv
 idna==3.1                 # via requests
 more-itertools==8.6.0     # via pytest
-packaging==20.4           # via pytest, tox
+packaging==20.8           # via pytest, tox
 pluggy==0.13.1            # via pytest, tox
 py==1.9.0                 # via pytest, tox
 pyparsing==2.4.7          # via packaging
