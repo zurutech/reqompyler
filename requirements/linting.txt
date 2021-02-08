@@ -20,7 +20,7 @@ isort[requirements,pyproject]==5.7.0  # via -r ./requirements.in/linting.txt, py
 lazy-object-proxy==1.5.2  # via astroid
 mccabe==0.6.1             # via flake8, pylint
 mypy-extensions==0.4.3    # via mypy
-mypy==0.782               # via -r ./requirements.in/linting.txt
+mypy==0.800               # via -r ./requirements.in/linting.txt
 pathspec==0.8.0           # via black
 pip-api==0.0.14           # via isort
 pipreqs==0.4.10           # via isort
