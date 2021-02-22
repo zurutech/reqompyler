@@ -12,7 +12,7 @@ chardet==4.0.0            # via doc8, requests
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
 docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
 flit-core==3.0.0          # via flit
-flit==2.3.0               # via sphinx-copybutton
+flit==3.0.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==3.0.0a1           # via sphinx
