@@ -24,7 +24,7 @@ docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
 entrypoints==0.3          # via flake8
 filelock==3.0.12          # via tox, virtualenv
 flake8-bugbear==20.11.1    # via -r ./requirements.in/linting.txt
-flake8==3.8.3             # via -r ./requirements.in/linting.txt, flake8-bugbear
+flake8==3.8.4             # via -r ./requirements.in/linting.txt, flake8-bugbear
 flit-core==2.3.0          # via flit
 flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
