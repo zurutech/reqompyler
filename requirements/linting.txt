@@ -17,7 +17,7 @@ flake8-bugbear==20.11.1    # via -r ./requirements.in/linting.txt
 flake8==3.8.4             # via -r ./requirements.in/linting.txt, flake8-bugbear
 idna==3.1                 # via requests
 isort[requirements,pyproject]==5.7.0  # via -r ./requirements.in/linting.txt, pylint
-lazy-object-proxy==1.5.1  # via astroid
+lazy-object-proxy==1.5.2  # via astroid
 mccabe==0.6.1             # via flake8, pylint
 mypy-extensions==0.4.3    # via mypy
 mypy==0.782               # via -r ./requirements.in/linting.txt
