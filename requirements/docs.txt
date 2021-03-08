@@ -23,7 +23,7 @@ pathtools==0.1.2          # via sphinx-autobuild, watchdog
 pbr==5.5.1                # via sphinx-click, stevedore
 port_for==0.4           # via sphinx-autobuild
 pydocstyle==5.1.1         # via -r ./requirements.in/docs.txt
-pygments==2.6.1           # via sphinx
+pygments==2.8.1           # via sphinx
 pyparsing==2.4.7          # via packaging
 pytoml==0.1.21            # via flit
 pytz==2020.1              # via babel
