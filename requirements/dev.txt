@@ -26,7 +26,7 @@ filelock==3.0.12          # via tox, virtualenv
 flake8-bugbear==21.3.2    # via -r ./requirements.in/linting.txt
 flake8==3.9.0             # via -r ./requirements.in/linting.txt, flake8-bugbear
 flit-core==3.1.0          # via flit
-flit==2.3.0               # via sphinx-copybutton
+flit==3.1.0               # via sphinx-copybutton
 idna==2.10                 # via requests
 imagesize==1.2.0          # via sphinx
 isort[requirements,pyproject]==5.4.2  # via -r ./requirements.in/linting.txt, pylint
