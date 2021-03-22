@@ -45,7 +45,7 @@ sphinxcontrib-jsmath==1.0.1  # via sphinx
 sphinxcontrib-qthelp==1.0.3  # via sphinx
 sphinxcontrib-serializinghtml==1.1.4  # via sphinx
 stevedore==3.3.0         # via doc8
-tornado==6.0.4            # via livereload, sphinx-autobuild
+tornado==6.1            # via livereload, sphinx-autobuild
 urllib3==1.25.10           # via requests
 watchdog==0.10.3          # via sphinx-autobuild
 wheel==0.35.1             # via sphinx-copybutton
