@@ -87,7 +87,7 @@ urllib3==1.26.4           # via requests
 virtualenv==20.4.3        # via tox
 watchdog==2.0.2          # via sphinx-autobuild
 wcwidth==0.2.5            # via pytest
-wheel==0.35.1             # via sphinx-copybutton
+wheel==0.36.2             # via sphinx-copybutton
 wrapt==1.12.1             # via astroid
 yarg==0.1.9               # via pipreqs
 zipp==3.1.0               # via importlib-metadata
