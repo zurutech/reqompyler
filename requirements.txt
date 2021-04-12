@@ -49,7 +49,7 @@ pluggy==0.13.1            # via pytest, tox
 port_for==0.4           # via sphinx-autobuild
 py==1.10.0                 # via pytest, tox
 pycodestyle==2.7.0        # via flake8
-pydocstyle==5.1.1         # via -r ./requirements.in/docs.txt
+pydocstyle==6.0.0         # via -r ./requirements.in/docs.txt
 pyflakes==2.2.0           # via flake8
 pygments==2.6.1           # via sphinx
 pylint==2.6.0             # via -r ./requirements.in/linting.txt
