@@ -10,7 +10,7 @@ babel==2.9.0              # via sphinx
 certifi==2020.12.5       # via requests
 chardet==4.0.0            # via doc8, requests
 doc8==0.8.1               # via -r ./requirements.in/docs.txt
-docutils==0.16            # via doc8, flit, restructuredtext-lint, sphinx
+docutils==0.17.1            # via doc8, flit, restructuredtext-lint, sphinx
 flit-core==2.3.0          # via flit
 flit==2.3.0               # via sphinx-copybutton
 idna==2.10                 # via requests
