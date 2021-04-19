@@ -48,7 +48,7 @@ stevedore==3.3.0         # via doc8
 tornado==6.1            # via livereload, sphinx-autobuild
 urllib3==1.26.4           # via requests
 watchdog==2.0.2          # via sphinx-autobuild
-wheel==0.35.1             # via sphinx-copybutton
+wheel==0.36.2             # via sphinx-copybutton
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
