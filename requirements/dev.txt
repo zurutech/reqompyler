@@ -43,7 +43,7 @@ pathspec==0.8.1           # via black
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
 pbr==5.5.1                # via sphinx-click, stevedore
 pip-api==0.0.20           # via isort
-pip-tools==5.3.1
+pip-tools==6.1.0
 pipreqs==0.4.10           # via isort
 pluggy==0.13.1            # via pytest, tox
 port_for==0.4           # via sphinx-autobuild
