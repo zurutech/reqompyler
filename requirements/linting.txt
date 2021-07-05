@@ -25,7 +25,7 @@ pathspec==0.8.1           # via black
 pip-api==0.0.20           # via isort
 pipreqs==0.4.10           # via isort
 pycodestyle==2.7.0        # via flake8
-pyflakes==2.2.0           # via flake8
+pyflakes==2.3.1           # via flake8
 pylint==2.6.0             # via -r ./requirements.in/linting.txt
 regex==2020.7.14          # via black
 requests==2.24.0          # via yarg
